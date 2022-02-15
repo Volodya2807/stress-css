@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+body { 
+    background-color: rgb(14, 17, 17);
+    color: #FF6347;
+    font: normal 22px 'Yanone Kaffeesatz', sans-serif;;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(124, 136, 75);
+}
+
+.all {
+    max-width: 750px;
+    margin:auto;
+}
+
+
+.avatar { 
+    width: 240px;
+    border-radius: 0px;
+}
+
+
+/* .info p {   
+    color: rgb(185, 47, 47);
+    margin: 0;
+    font-style: initial;
+    font-weight: bold;
+    text-decoration: none;
+} /*
+
+.social {
+ background-color: #bfc47a;   
+
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 20px;
+ padding-right: 0px;
+
+ border: 5px solid darkred;
+
+ margin-top: 0px ;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 5px;
+} */
+
+.info { 
+margin-bottom: 20px;
+}
+
+.card {
+    padding: 15px 20px;
+    background-color:  red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.bg-red {
+    background: #e0b088dc   ;
+}
+
+.bg-green {
+    background: #e0b088dc;
+}
+
+.bg-blue {
+    background: #e0b088dc;
+}
+
+.list {
+    padding: 0 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: grey;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0%;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    }
+
+.contact h4 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    height: 30px;
+    width: 100%;
+    box-sizing:content-box;
+    border: none;
+    border-bottom: 1px solid rgba(23, 146, 84, 0.336);
+    outline: none;
+    font-family: inherit;
+    background: white;;
+}
+.row {
+    display:block;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+            @media (max-width: 700px) {.info {
+                    text-align: center;
+                    display: block;
+            } }
+
+
+.info-text {
+    margin-left: 20px;
+}
+
+.press {
+    background: black;
+    color: #FF6347;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.press:hover {
+    opacity: 0.9;
+}
+
